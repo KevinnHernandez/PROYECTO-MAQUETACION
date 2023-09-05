@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+        header{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+}
+
+.logo{
+    color: #ff702a;
+    font-size: 180%;
+    font-weight: 500;
+    width: 100vw;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+header{
+    background-color: #1e1d2b;
+    align-items: center;
+}
+
+.container-header{
+    margin-top: 1%;
+    
+    
+    padding-bottom: 0.5%;
+    display: flex;
+    justify-content: end;
+}
+
+nav{
+    text-decoration: none;
+    margin-left: -30%;
+}
+
+.enlace-header{
+    padding-left: 4%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 500;
+    
+}
+
+.enlace-header:hover{
+    color: #ff702a;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+#portada{
+    background-color: #1e1d2b;
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagen-portada{
+    width: 40vw;
+}
+
+.imagen-portada img{
+    position: relative;
+    align-items: center;
+    height: 30vw;
+    float: right;
+    left: 120%;
+    margin-top: 15%;
+    margin-left: -15%;
+}
+
+.container-portada h2{
+    color: #ff702a;
+    font-size: 5vw;
+    
+}
+
+.container-portada{
+    width: 60vw;
+    position: relative;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    left: 10%;
+    margin-top: -20%;
+}
